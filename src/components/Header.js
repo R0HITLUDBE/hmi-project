@@ -88,6 +88,9 @@ const Header = () => {
             </Dropdown.Menu>
           </Dropdown>
         </Nav>
+        <Nav className="justify-content-end" style={{ color: "white" }}>
+          <Nav.Link href="/login">Login</Nav.Link>
+        </Nav>
       </Container>
     </Navbar>
   );
